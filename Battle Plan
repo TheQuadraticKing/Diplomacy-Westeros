@@ -1,0 +1,31 @@
+1. Section off map of Westeros into Distinct Sections
+	1a. Make sure to keep each House Seperate
+	1b. 35 Supply Stations total. Attempt to keep the # of Supply Stations to 3/House
+	1c. Default Houses: Stark, Lannister, Arryn, Tyrell, Targaryan, Martell
+	1d. Neutral Houses: Greyjoy, Tully, Baratheon, (Possibly Western Esteros)
+	1e. Notes: No Beyond the Wall, Accentuate the rivers to force Fleets
+2. Convert those Land and Sea Sections into an SVG
+3. Install 2 New Pages
+	3a. Menu Screen
+		*Create Game
+		*Find Game
+		*Settings
+		*House Preferences
+		*Feedback
+	3b.	In the year 182AC,a rebellious uprising was in the works against Daeron II Targaryan by his own
+		bastard brother Daemon Waters, legitamized by the king to become Daemon Blackfyre.
+		Daeron II Targaryan is a cunning and intelligent king with the original right to the Iron Throne,
+		while Daemon Blackfyre had only adopted the right to the throne after being legitimized by king
+		Aegon IV Targaryan on his deathbed. Are you with or against the rebellion? Do you think neither
+		should have right to the Iron Throne? Fight for your King!
+		~This should then fade and become the log of moves with the header "Spring 182AC"
+	3c. The SVG map goes here as well as a Submit Button
+4. Define allowed moves and rules
+	4a. When countSeason == 28, count Supply Stations of each District. Greatest wins
+	4b.	Only move to adjacent towns
+	4c. Fleets only allowed on Naval towns
+	4d. When countSeason == {0,2,4,...} add armies or ships
+	4e. All the rules, I won't put them here
+5. When all Submit Buttons are pressed on the map page, they should update log page
+	4a. Each Submit should change the header through 182AC - 196AC (Prior to Blackfyre Rebellion)
+6. More to be added
